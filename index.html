@@ -142,7 +142,7 @@
         </p>
         <div>
           <button
-            class="flex justify-items-center items-center mt-4 bg-[#ABEF5F80] text-black p-2 rounded-xl hidden w-full md:flex md:w-auto md:order-1"
+            class="flex justify-items-center items-center mt-4 bg-[#ABEF5F80] text-black p-2 rounded-xl w-full md:flex md:w-auto md:order-1"
           >
             <img
               class="w-[30px]"
@@ -364,9 +364,9 @@
     </div>
 
     <!-- Last Part -->
-    <div class="bg-slate-200 justify-items-center py-20">
+    <div class="bg-slate-200 justify-items-center mt-10 py-12">
       <button
-        class="flex justify-items-center items-center mt-4 bg-[#ABEF5F80] text-[#494949] p-2 rounded-xl hidden w-full md:flex md:w-auto md:order-1"
+        class="flex justify-items-center items-center mt-4 bg-[#ABEF5F80] text-[#494949] p-2 rounded-xl   md:flex md:w-auto md:order-1"
       >
         →About Us
       </button>
@@ -378,7 +378,7 @@
       </p>
 
       <!-- input -->
-      <div class="flex gap-2 my-4">
+      <div class="grid lg:flex gap-2 my-4">
         <input
           type="text"
           placeholder="First Name*"
@@ -390,7 +390,7 @@
           class="input input-success px-10 flex justify-start max-w-xs bg-white border-0"
         />
       </div>
-      <div class="flex gap-2">
+      <div class="grid lg:flex gap-2">
         <input
           type="text"
           placeholder="Phone Number*"
@@ -402,10 +402,27 @@
           class="input input-success px-10 flex justify-start rounded-xl max-w-xs bg-white border-0"
         />
       </div>
-      <input class=" bg-white py-10 pl-[17px] pr-[333px] text-left	 my-4 flex justify-start" placeholder="Write your message here" type="text" name="" id="">  
+      <input class=" bg-white py-10 px-10 lg:pl-[17px] lg:pr-[333px] text-left	 my-4 flex justify-start rounded-xl" placeholder="Write your message here" type="text" name="" id=""> 
+       
+      <!--button  -->
+       <a
+          href="#"
+          class="flex items-center justify-center bg-[#ABEF5F] rounded-xl px-16  lg:px-[193px] mt-10 py-1 space-x-3 rtl:space-x-reverse"
+        >
+        <span
+            class="self-center text-xl font-semibold whitespace-nowrap dark:text-black"
+            >Send Mail</span
+          >
+          <img
+            src="img/up-right-arrow_5124867.png"
+            class="h-6"
+            alt="Frame Logo"
+          />
+          
+        </a>
     </div>
 
-    <footer>
+    <footer class="bg-black py-4">
       <div>
         <a
           href="#"
@@ -417,7 +434,7 @@
             alt="Frame Logo"
           />
           <span
-            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black"
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
             >Rinterio</span
           >
         </a>
@@ -426,6 +443,29 @@
           sophistication,<br />
           featuring weathered wood, sleek metal accents.
         </p>
+        <ul class="grid lg:flex gap-5 lg:gap-24 justify-center mt-10">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>    
+          <li><a>Contact Us</a></li>    
+        </ul>
+        <!--button  -->
+        <div class="justify-items-center mt-10">
+          <button
+                  class="flex justify-items-center items-center bg-lime-500 text-black p-2 rounded-xl   md:flex md:w-auto md:order-1"
+                >
+                Book Consult
+                  <img
+                    class="w-[30px]"
+                    src="img/up-right-arrow_5124867.png"
+                    alt=""
+                    srcset=""
+                  />
+                  
+        </button>
+        </div>
+
       </div>
     </footer>
   </body>
